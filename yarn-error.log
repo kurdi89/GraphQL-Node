@@ -1,0 +1,59 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Abdul\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @babel/preset-env @babel/cli @babel/node @babel/core ndoemon
+
+PATH: 
+  C:\Users\Abdul\Desktop\Cmder\bin;C:\Users\Abdul\Desktop\Cmder\vendor\bin;C:\Users\Abdul\Desktop\Cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\Abdul\Desktop\Cmder\vendor\conemu-maximus5;C:\Users\Abdul\Desktop\Cmder\vendor\conemu-maximus5\ConEmu;C:\Python37\Scripts\;C:\Python37\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\GTK2-Runtime\bin;C:\Users\Abdul\AppData\Local\Microsoft\WindowsApps;C:\Users\Abdul\AppData\Roaming\npm;C:\Users\Abdul\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Abdul\AppData\Local\atom\bin;C:\mongodb\bin;C:\Program Files\Genymobile\Genymotion\tools;C:\Users\Abdul\AppData\Local\Android\Sdk\platform-tools;C:\Users\Abdul\AppData\Local\Android\Sdk\tools;C:\Program Files\heroku\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Abdul\Desktop\Cmder
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  10.15.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/ndoemon: Not found
+      at Request.params.callback [as _callback] (C:\Users\Abdul\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66091:18)
+      at Request.self.callback (C:\Users\Abdul\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:129590:22)
+      at Request.emit (events.js:189:13)
+      at Request.<anonymous> (C:\Users\Abdul\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:130562:10)
+      at Request.emit (events.js:189:13)
+      at IncomingMessage.<anonymous> (C:\Users\Abdul\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:130484:12)
+      at Object.onceWrapper (events.js:277:13)
+      at IncomingMessage.emit (events.js:194:15)
+      at endReadableNT (_stream_readable.js:1125:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "graphql-node",
+    "version": "1.0.0",
+    "description": "a graphql project with nodejs and apollo server, using : babel, yarn, apollo",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kurdi89/GraphQL-Node.git"
+    },
+    "keywords": [
+      "GraphQL",
+      "Nodejs",
+      "Apollo"
+    ],
+    "author": "Abdullah Alkurdi",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/kurdi89/GraphQL-Node/issues"
+    },
+    "homepage": "https://github.com/kurdi89/GraphQL-Node#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

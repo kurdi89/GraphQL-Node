@@ -11,3 +11,9 @@ to start :
 
 `npm init -y`
 
+
+
+
+#### References : 
+(Build a GraphQL Server with Node.js and MOngoDB)[https://www.youtube.com/watch?v=YFkJGEefgU8] on youtube by : Ben Awad
+

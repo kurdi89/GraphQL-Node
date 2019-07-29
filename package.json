@@ -1,0 +1,24 @@
+{
+  "name": "graphql-node",
+  "version": "1.0.0",
+  "description": "a graphql project with nodejs and apollo server, using : babel, yarn, apollo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kurdi89/GraphQL-Node.git"
+  },
+  "keywords": [
+    "GraphQL",
+    "Nodejs",
+    "Apollo"
+  ],
+  "author": "Abdullah Alkurdi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kurdi89/GraphQL-Node/issues"
+  },
+  "homepage": "https://github.com/kurdi89/GraphQL-Node#readme"
+}

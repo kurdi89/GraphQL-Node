@@ -31,6 +31,8 @@ add the start script to scripts :
 
 create `src\index.js` file and add `console.log('hi')` to check your app is running
 
-___you may wanna create `.babelrc` file and add ```{
+_you may wanna create `.babelrc` file and add ```{
   "presets": ["@babel/preset-env"]
-}``` to it___
+}``` in it _
+
+to run the app `yarn start`

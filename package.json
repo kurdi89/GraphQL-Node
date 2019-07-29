@@ -4,7 +4,7 @@
   "description": "a graphql project with nodejs and apollo server, using : babel, yarn, apollo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start":"nodemon --exec babel-node -- src/index.js"
   },
   "repository": {
     "type": "git",

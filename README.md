@@ -20,3 +20,17 @@ to start :
 start with `yarn add @babel/preset-env @babel/cli @babel/node @babel/core nodemon`
 
 _create `.gitignore` file and add `node_modules/` in it_
+
+setup nodemon :
+add the start script to scripts : 
+```
+"scripts": {
+    "start":"nodemon --exec babel-node -- src/index.js"
+  }
+```
+
+create `src\index.js` file and add `console.log('hi')` to check your app is running
+
+___you may wanna create `.babelrc` file and add ```{
+  "presets": ["@babel/preset-env"]
+}``` to it___
